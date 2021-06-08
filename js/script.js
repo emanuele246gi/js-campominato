@@ -13,7 +13,7 @@
 // 1. 16 numeri random tra 1 e 100 - no duplicati
 
 for (var i = 0; i < 16; i ++){
-    var random = Math.floor(Math.random() * 100 + 1);
+    random.push = Math.floor(Math.random() * 100 + 1);
 
 }
 document.getElementById('random').innerHTML += random;
