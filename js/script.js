@@ -12,8 +12,10 @@
 
 // 1. 16 numeri random tra 1 e 100 - no duplicati
 
-var random = Math.floor(Math.random() * 100 + 1);
+for (var i = 0; i < 16; i ++){
+    var random = Math.floor(Math.random() * 100 + 1);
 
+}
 document.getElementById('random').innerHTML += random;
 
 // 2. Chiedere 84 volte un numero tra 1 e 100 - no  duplicati
