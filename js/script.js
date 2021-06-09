@@ -26,5 +26,13 @@ for (var i = 0; i < 84; i ++){
 }
 
 // 3. End partita se il numero è lo stesso del AI, vietato o raggiunto il limite di numeri
+var finale = []
+
+if (numero == random){
+
+} else{
+    
+}
+
 
 // 4. Comunicare punteggio: quante volte inserito un numero consentito
