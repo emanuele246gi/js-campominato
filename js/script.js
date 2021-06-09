@@ -11,7 +11,7 @@
 // ------------------------------------
 
 // 1. 16 numeri random tra 1 e 100 - no duplicati
-var random = i
+var random = []
 for (var i = 0; i < 16; i ++){
     random.push = Math.floor(Math.random() * 100 + 1);
 
